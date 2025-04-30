@@ -4,30 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/assets/">
+    <link rel="stylesheet" href="/src/styles/header.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
     <title>176Lab</title>
 </head>
 <body>
     <header>
         <div class="header__container">
-            <div class="header__logo"><img src="/src/assets/Group 533548 logo.png" alt="logo-176lab"></div>
+            <div class="header__logo"><img src="/src/assets/media/Group 533548 logo.png" alt="logo-176lab"></div>
             <nav class="header__nav">
-                <ul class="header__nav-list">
-                    <li class="header__nav-item"><a href="#">Menú</a></li>
-                    <li class="header__nav-item"><a href="#">es</a></li>
-                    <li class="header__nav-item"><a href="#">en</a></li>
-                </ul>
+                <div class="header__nav-list">
+                    <div class="header__nav-menu">
+                      <a href="#"><i class="fas fa-bars icon-menu"></i>menú</a>
+                    </div>
+                    <div class="header__nav-lenguaje">
+                      <div class="header__nav-item-es"><a href="#">es</a></div>
+                      <div class="header__nav-item-point">·</div>
+                      <div class="header__nav-item-en"><a href="#">en</a></div>
+                    </div>
+                </div>
             </nav>
         </div>
-        <section class="hero">
-            <div class="hero__container">
-                <h1 class="hero__title">EXPLORA EL FUTURO DE <br><span class="hero__subtitle">LA PROGRAMACIÓN</span></h1>
-                <p class="hero__description">Combinamos la creatividad y la tecnología para crear soluciones personalizadas que impulsan el crecimiento de tu negocio.</p>
-                <button class="hero__button">Contáctanos</button>
-            </div>
-        </section>
-        <h4>Scroll down</h4>
-        <h1>Aplicación Sitio web Marketing Servicio <br><span class=""></span>producto Red social Publicidad</h1>
-        <img src="/src/assets/Group 533543 img.png" alt="img-176lab">
     </header>
+    <section class="hero">
+        <div class="hero__content">
+          <div class="hero__text">
+            <h1 class="hero__title">
+              EXPLORA EL FUTURO DE <br>
+              <span class="hero__subtitle">LA PROGRAMACIÓN</span>
+            </h1>
+            <p class="hero__description">
+              Combinamos la creatividad y la tecnología para crear soluciones personalizadas que impulsan el crecimiento de tu negocio.
+            </p>
+            <button class="hero__button">Contáctanos</button>
+            <h4 class="hero__scroll">Scroll down</h4>
+            <h1 class="hero__keywords">
+              Aplicación Sitio web Marketing Servicio <br>
+              producto Red social Publicidad
+            </h1>
+          </div>
+          <div class="hero__img">
+            <img src="/src/assets/media/Group 533543 img.png" alt="img-176lab">
+          </div>
+        </div>
+      </section>
 </body>
 </html>

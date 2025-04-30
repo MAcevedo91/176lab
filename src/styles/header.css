@@ -1,0 +1,75 @@
+/* Reset CSS básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  background-color: #00EBB2;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 39px;
+  margin-left: 132px;
+}
+
+.header__logo {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.header__logo:hover {
+  transform: scale(1.1);
+}
+
+.header__nav{
+  display: flex;
+  gap: 50px;
+  margin-left: 100px;
+  
+}
+
+.header__nav-list{
+  display: flex;
+  gap: 50px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  
+  
+}
+
+.header__nav-list a {
+  text-decoration: none;
+  color: #377BFF;
+  transition: color 0.3s ease;
+}
+
+.header__nav-list a:hover {
+  color: #EFFF37;
+}
+
+.icon-menu {
+  color: #EFFF37;
+  margin-right: 10px;
+}
+
+.header__nav-lenguaje {
+  display: flex;
+}
+
+.header__nav-item-point {
+  margin: 0 10px;
+  user-select: none;
+  cursor: progress;
+  text-decoration: none;
+  color: #377BFF;
+}
