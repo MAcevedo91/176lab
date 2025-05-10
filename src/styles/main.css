@@ -1,24 +1,14 @@
-/* Reset CSS básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-header {
+.main-layout {
   display: flex;
-  position: relative;
-  width: 100%;
-  align-items: center;
-  background-color: #00EBB2;
+  flex-direction: column;
 }
 
 .header__container {
   display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 39px;
-  margin-left: 132px;
+  flex-direction: row;
+  justify-content: start;
+  padding: 2% 0 2% 10%;
+  background-color: #00EBB2;
 }
 
 .header__logo {
@@ -32,9 +22,9 @@ header {
 
 .header__nav{
   display: flex;
-  gap: 50px;
-  margin-left: 100px;
-  
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10%;
 }
 
 .header__nav-list{
@@ -79,25 +69,25 @@ header {
 
 .hero {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
+  flex-direction: column;
+  padding: 5% 0 2% 10%;
   background-color: #00EBB2;
-  /* border: 3px solid #aa0c66; */
-
-}
-
-.hero__img {
-  align-self: self-end;
-  z-index: 1;
-  /* border: 3px solid #5713ce; */
 }
 
 .hero__container {
-  display: flexbox;
-  margin: 0 10% 0 10%;
-  /* border: 3px solid #25c616; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -10%;
+}
+
+.hero__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 40%;
 }
 
 .hero__title {
@@ -105,17 +95,16 @@ header {
   font-size: 44px;
   font-style: normal;
   font-weight: 200;
-  align-self: self-start;
   color: #377BFF;
 }
 
-.hero__subtitle {
+.hero__title--decoration {
   font-family: 'inter', sans-serif;
   font-size: 44px;
   font-style: italic;
   font-weight: bold;
+  letter-spacing: 3px;
   color: #dcf44a;
-  align-self: self-start;
   text-shadow: 
   0 0 15px #dcf44a,
   0 0 8px #60f9f0,
@@ -128,18 +117,16 @@ header {
   font-style: normal;
   font-weight: 400;
   color: #201E1E;
-  margin-top: 2%;
+  margin: 4% 0 4%;
   line-height: 1.2;
-  align-self: self-start;
 }
 
-.hero__button {
+.hero__button--contactanos {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
+  width: 291px;
   height: 80px;
-  margin-top: 3%;
   background-color: #DCF44A;
   color: #201E1E;
   box-shadow: 1px 5px 5px rgba(116, 114, 114, 0.488);  
@@ -155,11 +142,24 @@ header {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.hero__scroll {
+.hero__img {
+  max-width: 50%;
+}
+
+.hero__img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  
+}
+
+
+/* .hero__link--scrolldown {
+  justify-self: first baseline;
   font-family: 'inter', sans-serif;
   font-size: 24px;
   font-weight: 400;
   margin-top: 20%;
   cursor: pointer;
-}
+} */
 
