@@ -579,34 +579,30 @@
     }
 
     @media (max-width: 768px) {
-    .collab-items-container {
-        width: 100%;
-        margin-left: 0;
-        align-self: center;
-        padding: 0 1rem;
+        .collab-items-container {
+            width: 100%;
+            margin-left: 0;
+            align-self: center;
+            padding: 0 1rem;
+        }
+
+        .collaboration-item {
+            padding: 1.5rem 2rem;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .collaboration-logo {
+            width: 60px;
+            height: 60px;
+            font-size: 1.2rem;
+        }
+
+        .collaboration-text {
+            font-size: 0.95rem;
+            text-align: justify;
+        }
     }
-
-    .collaboration-item {
-        padding: 1.5rem 2rem;
-        gap: 1.5rem;
-        margin-bottom: 2rem;
-    }
-
-    .collaboration-logo {
-        width: 60px;
-        height: 60px;
-        font-size: 1.2rem;
-    }
-
-    .collaboration-text {
-        font-size: 0.95rem;
-        text-align: justify;
-    }
-}
-
-
-
-
 
 
     /* Responsive Design */
