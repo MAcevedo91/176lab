@@ -692,6 +692,62 @@
         box-shadow: 0 6px 25px rgba(0, 212, 184, 0.4);
     }
 
+    /* Clients Section */
+    .clients {
+        background: var(--white);
+        padding: 4rem 0;
+    }
+
+    .clients-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .client-title-content {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .clients-title {
+        font-size: clamp(1.5rem,4vh, 3rem);
+        color: var(--text-dark);
+        margin-bottom: 1rem;
+        font-weight: 200;
+    }
+
+    .clients-subtitle {
+        font-size: clamp(1.5rem, 3vh, 3rem);
+        color: var(--primary-blue);
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    .clients-logos {
+        max-width: 700px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5rem;
+    }
+
+    .client-logo {
+        opacity: 0.7;
+        transition: all 0.3s ease;
+    }
+
+    .client-logo:hover {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+
 
 
 
