@@ -13,9 +13,11 @@
             <a href="#" class="logo"><img src="/src/assets/media/Group 533548 logo.png" alt="logo-176lab"></a>
             <ul class="nav-menu">
                 <li><a href="#inicio" class="nav-link">Inicio</a></li>
-                <li><a href="#servicios" class="nav-link">Servicios</a></li>
-                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#estudios" class="nav-link">Estudios</a></li>
+                <li><a href="#casos" class="nav-link">Casos de estudio</a></li>
+                <li><a href="#collab" class="nav-link">Colaboraciones</a></li>
                 <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                <li><a href="#clientes" class="nav-link">Clientes</a></li>
                 <li><select style="background: #4a91e2; border: none; color: #d0ee09; font-weight: 500; border-radius: 5px;">
                     <option value="es">ES</option>
                     <option value="en">EN</option>
@@ -54,7 +56,7 @@
     </section>
     
     <!-- Services Section -->
-    <section id="servicios" class="services">
+    <section id="estudios" class="services">
         <div class="services-header fade-in">
             <h2 class="services-title">SOLUCIONES 
                 <span class="blue-highlight">PERSONALIZADAS</span>
@@ -138,7 +140,7 @@
     </section>
 
        <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio">
+    <section id="casos" class="portfolio">
         <div class="portfolio-content">
             <h2 class="portfolio-title fade-in">CASOS DE ÉXITO</h2>
             <div class="portfolio-grid">
@@ -176,7 +178,7 @@
     </section>
 
     <!-- Collaboration Section -->
-    <section class="collaboration">
+    <section id="collab" class="collaboration">
         <div class="collab-image-container">
             <img 
                 src="/src/assets/media/Group 533543.png" 
@@ -206,6 +208,43 @@
                     </p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="contact-content">
+            <h2 class="contact-title fade-in">Hablemos</h2>
+            <p class="contact-description fade-in">
+                ¿Quieres saber más sobre nuestros servicios?<br>
+                <span style="font-weight: bold;">¡Hablemos!</span> Estamos ansiosos por escucharte.
+            </p>
+            
+            <form class="contact-form fade-in">
+                <div class="form-group">
+                    <input type="text" class="form-input" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-input" placeholder="Apellido" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-input" placeholder="E-mail" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-input" placeholder="País" required>
+                </div>
+                <div class="form-group full-width">
+                    <select class="form-select" required>
+                        <option value="">Qué necesitas?</option>
+                        <option value="web-design">Diseño Web</option>
+                        <option value="digital-marketing">Marketing Digital</option>
+                        <option value="development">Desarrollo</option>
+                        <option value="consultation">Consultoría</option>
+                    </select>
+                </div>
+            </form>   
+            <button type="submit" class="form-button fade-in">Siguiente</button>       
+            
         </div>
     </section>
 
